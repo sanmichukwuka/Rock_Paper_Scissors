@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="rock_paper_scissors.css">
+  <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome To Rock Paper Scissors Game!</title>
+</head>
+<body>
+
+  <header>
+    <h1 title="This is a rock paper scissors game. Enjoy!" style="color: red;">Rock Paper Scissors</h1>
+  </header>
+  <div class="score-board">
+    <div id="counter"><h1 style="color: red;">5</h1></div>
+    <div id="user-label" class="badge" title="Keeps record of player's score count">Player</div>
+    <div id="comp-label" class="badge" title="Keeps record of computer's score count">computer</div>
+    <span id="user-score">0</span>:<span id="comp-score">0</span>
+  </div>
+
+  <div class="result">
+    <p>No output yet, please play the game by selecting your weapon!</p>
+  </div><br><br><br><br>
+
+  <p id="action-message" title="Select one of Rock, Paper or Scissors as your weapon" style="color: red;">Choose your weapon</p>
+  <div class="choices">
+    <div id="rock" class="choice">
+      <img src="moon_rock.jpg" alt="rock" width="50" height="50">
+    </div>
+    <div id="paper" class="choice">
+      <img src="paper.jpeg" alt="paper" width="50" height="50">
+    </div>
+    <div id="scissors" class="choice">
+      <img src="scissors.jpeg" alt="scissors" width="50" height="50">
+    </div>
+  </div>
+
+  <script src="rock_paper_scissors.js"></script>
+
+</body>
+</html>
